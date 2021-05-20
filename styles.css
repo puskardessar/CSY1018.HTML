@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+ background-image: url(pexels-photo-268533.JPEG);
+  background-size: cover;
+ 
+  background-attachment: fixed;
+  
+
+
+  
+ 
+   
+
+}
+#popp{
+
+   
+  height: 700px;
+  width: 100px;
+
+}
+
+
+a {
+  color: white;
+}
+
+/* header */
+
+.nav {
+  background-color: black;
+  box-shadow: 4px 1px 4px 4px red;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  color: white;
+  border: 1px solid black;
+  height: 70px;
+
+
+
+  
+  
+
+
+  
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+  float: right;
+
+     
+    
+}
+
+ .nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+.menu{ 
+  height: 30px;
+
+
+
+ }
+
+
+.nav ul li a {
+  display: block;
+  
+  
+  text-decoration: none;
+  height: 20px;
+  width: 120px;
+  
+    font-size: 20px;
+    color: #000000;
+    padding: 25px 0px;
+   
+   
+    
+    transition: 0.6s ease;
+    
+}
+
+
+
+.nav .logo {
+  display: block;
+  float: left;
+  font-size: 3em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+
+/* menu */
+
+
+
+
+
+
+
+ul li a:hover{
+    background-color: pink;
+    color:white;
+}
+
+
+
+label{
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  line-height: 70px;
+  display: none;
+
+}
+#toggle{
+  display: none;
+}
+
+ 
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.title{
+	color: #fff;
+	
+	text-align: center;
+	padding: 10px;
+	background: rgba(0, 0 , 0, 0.5);
+   position: absolute;
+   
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+
+}
+
+.title h1{
+    color: purple;
+    font-size: 80px;
+    
+
+}
+
+.title h2{
+    color: lightgreen;
+    font-size: 60px;
+
+}
+
+.title p{
+    color: skyblue;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 1500px){
+  label {
+    display: block;
+    float: right;
+   
+   
+   
+   
+    font-size: 30px;
+  }
+ul li{
+  flex-direction: column;
+}
+  .menu {
+    text-align: center;
+    width: 100%;
+    height: 3000px;
+    background-color: green;
+    display: none;
+    float: right;
+
+
+
+
+    
+  }
+  .menu ul {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 55%;
+  
+    
+     border-bottom: 1px solid black;
+     background-attachment: fixed;
+
+   
+
+  }
+  .menu ul li:hover{
+     background-color: blue;
+    color: white;
+
+  }
+  .menu a
+  {
+margin-left: 150px;
+    margin-top: 0px;
+    font-size: 80px;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 20px;
+   
+ 
+    
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+ .title{
+    top: 60%;
+
+    
+    height: 500px;
+   position: fixed
+   
+   }
+ 
+
+
+  .title h1{
+    font-size: 50px;
+    color: white;
+   padding-bottom: 50px;
+    
+    
+  }
+
+   
+  .title h2{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    
+  }
+  .title p{
+    font-size: 40px;
+    color: white;
+
+   
+  }
+  .popp{
+
+
+  }
+  
+}
