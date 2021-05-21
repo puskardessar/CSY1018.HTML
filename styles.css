@@ -12,7 +12,7 @@ a {
   color: white;
 }
 
-/* header */
+
 
 .nav {
   background-color: black;
@@ -20,7 +20,7 @@ a {
   
   width: 100%;
   z-index: 3;
-  color: white;
+  color: gray;
   border: 1px solid black;
   height: 70px;
 
@@ -38,7 +38,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: gray;
   float: right;
 
      
@@ -86,7 +86,7 @@ a {
 }
 
 
-/* menu */
+
 
 
 
@@ -111,40 +111,24 @@ label{
 #toggle{
   display: none;
 }
+#title{
+  text-align: center;
+ 
+ text-transform: uppercase;
+ font-size: 70px;
+ color: gray;
+margin-top: 160px;
+background: lightblue;
+margin-left: 60px;
+margin-right:  60px;
+padding-bottom: 30px;
+
+}
 
  
 
 
-.title{
-	text-align: center;
-  
-  text-transform: uppercase;
-   transform: translate(-0%, -150%);
-   padding: 10px;
-   background: rgba(0, 0 , 0, 0.5);
-    
-   
 
-}
-
-.title h1{
-    color: purple;
-    font-size: 80px;
-    
-
-}
-
-.title h2{
-    color: lightgreen;
-    font-size: 60px;
-
-}
-
-.title p{
-    color: skyblue;
-    font-size: 50px;
-    text-decoration: underline;
-}
 
 
 
@@ -170,6 +154,7 @@ ul li{
     background-color: green;
     display: none;
     float: right;
+
 
 
 
@@ -211,15 +196,154 @@ margin-left: 150px;
   #toggle:checked + .menu {
     display: block;
   }
-  .title{
-
+}
   
-  
-   transform: translate(-0%, -250%);
-   padding: 10px;
-   background: rgba(0, 0 , 0, 0.5);
+  #title  h1{
+    font-size: 70px;
+    line-height: 80px;
     
 
   }
+
+   #title  h2{
+    font-size: 50px;
+    line-height: 50px;
+    
+    
+  }
+
+   #title  p{
+    font-size: 50px;
+    line-height: 60px;
+    
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rrr{
+
+
+
+background-image: url(pexels-photo-1266810.JPEG);
+
+height: 2000px;
+background-size: cover;
+
+
+
+
+   
+ 
+}
+.shahil{
+  display: grid;
+
+  
+  grid-template-columns: auto auto auto;
+
+  background-color: black;
+  width: 98%;
+  padding: 10px; 
+  position: relative;
+  top: 5%;
+  height: 1500px;
+  text-align: center;
+  font-size: 25px;
+  background-attachment: fixed;
+   
+   
+
+
+ 
+ 
+ 
+
+ }
+ .v{ 
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 500px;
+  background-color: lightgray;
+  opacity: 0.4;
+  width: 60%;
+  position: relative;
+  left: 20%;
+
+  }
+  .g{
+    background-color: lightgray;
+    height: 400px;
+    width: 80%;
+    opacity: 0.4;
+
+  }
+  .o{
+    background-color: lightgray;
+    height: 400px;
+    width: 80%;
+    opacity: 0.4;
+
+
+
+  }
+  .d{
+    background-color: lightgray;
+    height: 400px;
+    width: 80%;
+    opacity: 0.4;
+
+
+  }
+  .di{
+    background-color: lightgray;
+    height: 300px;
+    width: 90%;
+    opacity: 0.4;
+    position: relative;
+    left: 20%;
+
+  }
+  .id{
+    background-color: lightgray;
+    height: 300px;
+    width: 100%;
+    position: relative; 
+    left: 60%;
+    opacity: 0.4;
+
+
+  }
+  .di:hover{
+    height: 350px;
+    color: red;
+  }
+ 
+ .id:hover{
+    height: 350px;
+
+
+  }
+  .shahil h1{
+    position: relative;
+    top: 20%;
+  }
+ 
+
+ 
+
+
+
 
