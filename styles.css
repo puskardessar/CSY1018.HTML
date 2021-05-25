@@ -1,36 +1,34 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
- background-image: url(pexels-photo-268533.JPEG);
+  background-image: url(pexels-photo-268533.JPEG);
   background-size: cover;
   background-attachment: fixed;
-
 }
-
 
 a {
   color: white;
 }
 
-/* header */
+.burgerLabel {
+  margin-right: 5px;
+}
+.burger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
 
 .nav {
   background-color: black;
   box-shadow: 4px 1px 4px 4px red;
-  
+
   width: 100%;
   z-index: 3;
-  color: white;
+  color: gray;
   border: 1px solid black;
   height: 70px;
-
-
-
-  
-  
-
-
-  
 }
 
 .nav ul {
@@ -38,44 +36,31 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: gray;
   float: right;
-
-     
-    
 }
 
- .nav ul li{
-    display: inline-block;
-    text-align: center;
+.nav ul li {
+  display: inline-block;
+  text-align: center;
 }
-.menu{ 
+.menu {
   height: 30px;
-
-
-
- }
-
+}
 
 .nav ul li a {
   display: block;
-  
-  
+
   text-decoration: none;
   height: 20px;
   width: 120px;
-  
-    font-size: 20px;
-    color: #000000;
-    padding: 25px 0px;
-   
-   
-    
-    transition: 0.6s ease;
-    
+
+  font-size: 20px;
+  color: #000000;
+  padding: 25px 0px;
+
+  transition: 0.6s ease;
 }
-
-
 
 .nav .logo {
   display: block;
@@ -85,141 +70,525 @@ a {
   text-decoration: none;
 }
 
-
-/* menu */
-
-
-
-
-
-
-
-ul li a:hover{
-    background-color: pink;
-    color:white;
+ul li a:hover {
+  background-color: pink;
+  color: white;
 }
-
-
-
-label{
-  margin: 0 20px 0 0;
-  font-size: 16px;
-  line-height: 70px;
+.burgerLabel {
   display: none;
-
+  position: relative;
+  top: 10%;
 }
-#toggle{
+
+#hide {
   display: none;
 }
-
- 
-
-
-.title{
-	text-align: center;
-  
+#title {
+  text-align: center;
   text-transform: uppercase;
-   transform: translate(-0%, -150%);
-   padding: 10px;
-   background: rgba(0, 0 , 0, 0.5);
-    
-   
+  color: gray;
+  margin-top: 160px;
+  background: lightblue;
 
+  margin: 10% 20% 20% 10%;
+  padding: 5% 2%;
 }
 
-.title h1{
-    color: purple;
-    font-size: 80px;
-    
-
+#title h1 h2 h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
 }
 
-.title h2{
-    color: lightgreen;
-    font-size: 60px;
-
-}
-
-.title p{
-    color: skyblue;
-    font-size: 50px;
-    text-decoration: underline;
-}
-
-
-
-
-@media (max-width: 1500px){
-  label {
+@media (max-width: 1200px) {
+  .burgerLabel {
     display: block;
     float: right;
-   
-   
-   
-   
-    font-size: 30px;
   }
-ul li{
-  flex-direction: column;
 }
+
+
+@media (max-width: 1201px) {
+  ul li {
+    flex-direction: column;
+  }
   .menu {
     text-align: center;
     width: 100%;
-    height: 3000px;
+    height: 2200px;
     background-attachment: fixed;
-    background-color: green;
+    
     display: none;
     float: right;
-
-
-
-
-    
+   overflow: hidden;
   }
   .menu ul {
     background-color: purple;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 55%;
-  
-    
-     border-bottom: 1px solid black;
-     background-attachment: fixed;
+    width: 100%;
 
-   
-
+    border-bottom: 1px solid black;
+    background-attachment: fixed;
   }
-  .menu ul li:hover{
-     background-color: blue;
+  .menu ul li:hover {
+    background-color: blue;
     color: white;
-
+    width: 100%;
   }
-  .menu a
-  {
-margin-left: 150px;
+
+  .menu ul li a {
+    width: 100%;
+  }
+
+  .menu a {
+    width: 100%;
+    border-bottom: 1px solid black;
     margin-top: 0px;
     font-size: 80px;
     text-decoration: none;
     width: 100%;
     margin-top: 20px;
-
-   
- 
-    
   }
-  #toggle:checked + .menu {
+  #hide:checked + .menu {
     display: block;
   }
-  .title{
+
+
+
+
+
+
+
+
+
+
+#rrr {
+  background-image: url(pexels-photo-1266810.JPEG);
+
+  background-size: cover;
+}
+.shahil {
+  display: grid;
+
+  grid-template-columns: auto auto;
+
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  top: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 25px;
+  padding: 10% 0%;
+}
+.v {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 400px;
+  background-color: lightgray;
+  opacity: 0.4;
+  width: 40%;
+  position: relative;
+  left: 28%;
+  margin: 2%;
+ 
+}
+.g {
+  background-color: lightgray;
+  height: 300px;
+  width: 60%;
+  margin: 4%;
+  opacity: 0.4;
+  margin-left: 7%;
+  
+}
+.gi {
+  background-color: lightgray;
+  height: 300px;
+  width: 70%;
+  margin: 4%;
+  opacity: 0.4;
+  margin-left: 7%;
+  
+}
+
+.di {
+  background-color: lightgray;
+  height: 300px;
+  width: 55%;
+  opacity: 0.4;
+  position: relative;
+  left: 40%;
+  top: 10%;
+}
+.id {
+  background-color: lightgray;
+  height: 300px;
+  width: 55%;
+  position: relative;
+  left: 60%;
+  opacity: 0.4;
+   top: 10%;
+}
+.di:hover {
+  height: 350px;
+  color: red;
+
+}
+
+.id:hover {
+  height: 350px;
+}
 
   
-  
-   transform: translate(-0%, -250%);
-   padding: 10px;
-   background: rgba(0, 0 , 0, 0.5);
-    
+
+@media (max-width: 1000px){
+  .v{
+    height: 200px;
+    width: 40%;
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+  }
+  .v h1{
+    position: relative;
+    top: 27%;
+  }
+  .g{
+    height: 150px;
+    width: 75%;
+    font-size: 10px;
+  }
+  .gi{
+    height: 150px;
+    width: 100%;
+    font-size: 10px;
+    position: relative;
+    right: 16%;
+  }
+  .gi h1 {
+    position: relative;
+    top: 27%;
+  }
+  .g h1 {
+    position: relative;
+    top: 27%;
+  }
+  .di{
+    height: 200px;
+   
+    font-size: 10px;
+    width: 90%;
+  }
+  .di h1{
+    position: relative;
+    top: 25%;
 
   }
+  .id{
+    height: 200px;
+   width: 90%;
+    font-size: 10px;
+  }
+  .id h1{
+    position: relative;
+    top: 25%;
+
 }
+}
+
+
+
+
+
+
+
+
+#physics {
+  text-align: center;
+}
+.maths {
+  display: grid;
+  grid-template-columns: 28% 72%;
+  margin-top: 5px;
+  background-color: green;
+  height: auto;
+  width: 100%;
+}
+.health {
+  background-color: white;
+  height: 800px;
+}
+.wealth {
+  background-color: orange;
+  height: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.jojo {
+  height: 200px;
+}
+.pojo {
+  background-color: gray;
+  height: 400px;
+}
+.punk {
+  width: 50%;
+  height: 170px;
+  background-color: red;
+  position: relative;
+  top: 2%;
+  left: 1%;
+  border: 3px solid blue;
+}
+.punk h1 {
+  position: relative;
+  top: 39%;
+  font-size: 20px;
+  left: 102%;
+}
+.punk p {
+  position: relative;
+  top: 30%;
+  font-size: 15px;
+  left: 102%;
+}
+.pojo h1 {
+  text-align: center;
+  background:  blue;
+}
+.pojo p {
+  text-align: center;
+  background:  purple;
+}
+}
+.pojo h2 {
+  text-align: center;
+}
+.intro{
+  height: auto;
+  width: 100%;
+  background-color: red;
+}
+.details{
+  background-color: pink;
+  height: 360px;
+}
+.tonk p {
+  text-align: left;
+}
+
+.tonk
+{
+  width: 25%;
+  float: left;
+  font-size: 19px;
+}
+.monk{
+   width: 75%;
+  float: left;
+  font-size: 19px;
+}
+.qulifiaction{
+  background-color: purple;
+  height: 800px;
+}
+.hobbies{
+  background-color: skyblue;
+  height: 800px;
+
+}
+
+@media(max-width: 1000px) {
+  .maths {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+  }
+  .wealth {
+    height: 800px;
+  }
+  .pojo{
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .punk{
+    width: 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contcct*/
+
+#workout {
+  width: 100%;
+ 
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.fumm {
+  background-color: black;
+  margin-top: 75px;
+  height: 900px;
+  color: white;
+  opacity: 0.5;
+
+
+ 
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: gray;
+  width: 100%;
+  height: 1200px;
+  border-radius: 7px;
+  color: white;
+ 
+}
+
+.container h1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 100px;
+}
+
+.container h1 p {
+  font-size: 25px;
+}
+.wwpp {
+  font-size: 20px;
+  text-align: center;
+ 
+ overflow: hidden;
+}
+
+
+.one {
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+}
+.two {
+  font-size: 20px;
+  left: 50px;
+  position: relative;
+
+}
+.three {
+  font-size: 20px;
+  left: 45px;
+  position: relative;
+}
+
+.four {
+  font-size: 20px;
+  left: 40px;
+  position: relative;
+}
+.five {
+  font-size: 50px;
+  width: 60%;
+}
+
+.registerbtn {
+  font-size: 30px;
+}
+.registerbtn:hover {
+  background-color: green;
+}
+.size{
+  width: 70%;
+  position: relative;
+  left: 100px;
+}
+.size-2{
+  width: 90%;
+  position: relative;
+ 
+  
+}
+
+
+.wwpp a:hover {
+  color: green;
+  text-decoration: underline;
+  
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+  
+  .fumm{
+    font-size: 15px;
+
+  }
+  #workout{
+    grid-template-columns: 65% 35%;
+
+   height: 1000px;
+  }
+  .container {
+    margin-left: 10px;
+    height: 1000px;
+  }
+  .one {
+    font-size: 10px;
+
+  
+  }
+  .two {
+    font-size: 20px;
+    
+  }
+  .three {
+    font-size: 20px;
+    
+  }
+  .four {
+    font-size: 20px;
+    
+  }
+  .wwpp {
+    font-size: 20px;
+  }
+  
+
+}
+
 
