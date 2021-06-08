@@ -41,10 +41,10 @@ a {
 }
 
 
-#burgerLabel {
+.burgerLabel {
   margin-right: 0px;
 }
- .burger {
+ .burger{
   width: 35px;
   height: 5px;
   background-color: white;
@@ -132,7 +132,7 @@ ul li a:hover {
   background-color: pink;
   color: white;
 }
-#burgerLabel {
+.burgerLabel {
 
   display: none;
   position: relative;
@@ -179,7 +179,7 @@ ul li a:hover {
 }
 
 @media (max-width: 1200px) {
-  #burgerLabel {
+  .burgerLabel {
 
     display: block;
     float: right;
@@ -251,269 +251,224 @@ ul li a:hover {
 
 
 
-
+/*portfolio*/
 
 
 #rrr {
-  background-image: url(pexels-photo-1266810.JPEG);
+  
+  
+   background-color: #0d2303;
+   margin-top: 5%;
 
-  background-size: cover;
+   overflow: hidden;
+
+
+
 }
 .shahil {
   display: grid;
 
-  grid-template-columns: auto auto;
+  grid-template-columns: 30% 30% 30%;
 
-  background-color: black;
+
+  background-color: #0d2303;
   width: 100%;
-  padding: 10px;
+  
   position: relative;
-  top: 20%;
+  top: 5%;
   height: auto;
+ 
   text-align: center;
-  font-size: 25px;
-  padding: 10% 0%;
+  
+
 }
 .v {
   grid-column-start: 1;
   grid-column-end: 4;
   height: 400px;
   background-color: lightgray;
-  opacity: 0.4;
-  width: 40%;
+  
+  width: 550px;
   position: relative;
-  left: 28%;
+  left: 34%;
   margin: 2%;
+  font-size: 20px;
  
 }
 .g {
   background-color: lightgray;
   height: 300px;
-  width: 60%;
-  margin: 4%;
-  opacity: 0.4;
-  margin-left: 7%;
+  width: 300px;
+  margin: 6%;
+  
+  margin-left: 25%;
+  font-size: 20px;
+ 
   
 }
 .gi {
   background-color: lightgray;
   height: 300px;
-  width: 70%;
-  margin: 4%;
-  opacity: 0.4;
-  margin-left: 7%;
+  width: 300px;
+  margin: 6%;
+  font-size: 20px;
+  
+  margin-left: 22%;
+ 
+  
+}.gin {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  margin: 6%;
+  font-size: 20px;
+  
+  margin-left: 30%;
+ 
   
 }
 
-.di {
-  background-color: lightgray;
-  height: 300px;
-  width: 55%;
-  opacity: 0.4;
-  position: relative;
-  left: 40%;
-  top: 10%;
-}
-.id {
-  background-color: lightgray;
-  height: 300px;
-  width: 55%;
-  position: relative;
-  left: 60%;
-  opacity: 0.4;
-   top: 10%;
-}
-.di:hover {
-  height: 350px;
-  color: red;
 
-}
-
-.id:hover {
-  height: 350px;
-}
-
-  
-
-@media (max-width: 1000px){
-  .v{
-    height: 200px;
-    width: 40%;
-    font-size: 15px;
-    position: relative;
-    left: 25%;
-  }
-  .v h1{
-    position: relative;
-    top: 27%;
-  }
-  .g{
-    height: 150px;
-    width: 75%;
-    font-size: 10px;
-  }
-  .gi{
-    height: 150px;
-    width: 100%;
-    font-size: 10px;
-    position: relative;
-    right: 16%;
-  }
-  .gi h1 {
-    position: relative;
-    top: 27%;
-  }
-  .g h1 {
-    position: relative;
-    top: 27%;
-  }
-  .di{
-    height: 200px;
-   
-    font-size: 10px;
-    width: 90%;
-  }
-  .di h1{
-    position: relative;
-    top: 25%;
-
-  }
-  .id{
-    height: 200px;
-   width: 90%;
-    font-size: 10px;
-  }
-  .id h1{
-    position: relative;
-    top: 25%;
-
-}
-}
-
-
-
-
-
-
-
-/*
-#physics {
-  text-align: center;
-}
-.maths {
-  display: grid;
-  grid-template-columns: 28% 72%;
-  margin-top: 5px;
-  background-color: green;
-  height: auto;
-  width: 100%;
-}
-.health {
-  background-color: white;
-  height: 800px;
-}
-.wealth {
-  background-color: orange;
-  height: auto;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-.jojo {
-  height: 200px;
-}
-.pojo {
+.blanket{
   background-color: gray;
   height: 400px;
-}
-.punk {
-  width: 50%;
-  height: 170px;
-  background-color: red;
-  position: relative;
-  top: 2%;
-  left: 1%;
-  border: 3px solid blue;
-}
-.punk h1 {
-  position: relative;
-  top: 39%;
+  width: 600px;
+  margin-left: 10%;
   font-size: 20px;
-  left: 102%;
+ 
 }
-.punk p {
-  position: relative;
-  top: 30%;
-  font-size: 15px;
-  left: 102%;
+.kison{
+  background-color: gray;
+  height: 370px;
+  width: 500px;
+  margin-left: 80%;
+  font-size: 20px;
+
 }
-.pojo h1 {
-  text-align: center;
-  background:  blue;
+.rojan{
+  height: 300px;
+  background-image: url(222.PNG);
+  background-size: contain;
+  
+  
 }
-.pojo p {
-  text-align: center;
-  background:  purple;
+.rayan{
+  height: 90px;
+  width: 550px;
+  background-color: green;
+
 }
+.pakas{
+  height: 210px;
+  background-image: url(333.PNG);
 }
-.pojo h2 {
-  text-align: center;
-}
-.intro{
-  height: auto;
-  width: 100%;
-  background-color: red;
-}
-.details{
+.whaks{
+  height: 70px;
+  width: 300px;
   background-color: pink;
-  height: 360px;
 }
-.tonk p {
-  text-align: left;
+.div-1{
+  height: 210px;
+   background-image: url(333.PNG);
 }
-
-.tonk
-{
-  width: 25%;
-  float: left;
-  font-size: 19px;
+.div-2{
+  height: 70px;
+  width: 300px;
+  background-color: blue;
 }
-.monk{
-   width: 75%;
-  float: left;
-  font-size: 19px;
+.div-4{
+  height: 210px;
+   background-image: url(333.PNG);
 }
-.qulifiaction{
-  background-color: purple;
-  height: 800px;
-}
-.hobbies{
-  background-color: skyblue;
-  height: 800px;
-
+.div-5{
+  height: 70px;
+  width: 300px;
+  background-color: pink;
 }
 
-@media(max-width: 1000px) {
-  .maths {
-    display: flex;
-    flex-direction: column;
+.div-6{
+  height: 400px;
+  background-image: url(placeholder0.PNG);
+  background-size: cover;
+}
+.div-7{
+  height: 70px;
+  width: 600px;
+  background-color: pink;
 
-    flex-wrap: wrap;
+}
+.div-8{
+  height: 300px;
+  background-image: url(placeholder0.PNG);
+  background-size: cover;
+
+}
+.div-9{
+  height: 70px;
+  width: 500px;
+  background-color: pink;
+}
+
+.portfolio-1{
+  text-align: center;
+  font-size: 70px;
+ 
+  text-decoration: underline;
+  color: red;
+  animation-name: colorexchange;
+  animation-duration: 7s;
+
+}
+11111111
+
+
+2222222
+@media (max-width: 1200px){
+ .g{
+  margin: 5%;
+ }
+ .gi{
+  margin-left: 17%;
+ }
+  .blanket{
+    width: 400px;
+
   }
-  .wealth {
-    height: 800px;
+  .kison{
+    width: 350px;
   }
-  .pojo{
-    display: grid;
-    grid-template-columns: 40% 60%;
+  .v{
+    width: 450px;
+    margin-left: -2%;
   }
-  .punk{
-    width: 25%;
-  }
+  .rayan{
+  
+  width: 450px;
+  background-color: green;
 }
-*/
-cv csss
+.div-7{
+  width: 400px;
+}
+.div-6{
+   width: 400px; 
+   width: 400px;
+ 
+  
 
-#physics {
+}
+.div-9{
+  width: 350px;
+}
+}
+
+
+
+
+
+
+
+
+/#physics {
   text-align: center;
 
 }
@@ -840,6 +795,7 @@ height: auto;
     font-size: 27px;
   }
 }
+
 
 
 
