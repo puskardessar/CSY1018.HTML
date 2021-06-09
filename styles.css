@@ -457,7 +457,7 @@ background-repeat: no-repeat;
 }
 .part-1{
   background-color: #fafafa;
-  height: 1200px;
+  height: 1300px;
   width: 100%;
  position: relative;
 }
@@ -645,7 +645,7 @@ margin-top: -20px;
  }
  .skills{
   font-size: 19px;
- }}
+ }
  .down{
   margin-top: 20px;
  }
@@ -660,9 +660,12 @@ margin-top: -20px;
  }
 }
 
-/*contact*/
+
+
 #workout {
   width: 100%;
+ 
+
   display: grid;
   grid-template-columns: 70% 30%;
 }
@@ -671,9 +674,15 @@ margin-top: -20px;
   margin-top: 90px;
   height: 900px;
   color: white;
+ 
   font-size: 18px;
+
+
+ 
   background-attachment: fixed;
 }
+
+
 .container {
   background-color: gray;
   width: 100%;
@@ -681,12 +690,15 @@ margin-top: -20px;
   border-radius: 7px;
   color: white;
   margin-top: 90px;
+ 
 }
+
 .container h1 {
   font-size: 40px;
   color: white;
   margin-top: 100px;
 }
+
 .container h1 p {
   font-size: 25px;
 }
@@ -696,6 +708,8 @@ margin-top: -20px;
  
  overflow: hidden;
 }
+
+
 .one {
   font-size: 20px;
   position: relative;
@@ -721,6 +735,7 @@ margin-top: -20px;
 .five {
   font-size: 30px;
   width: 60%;
+  margin-left: 5%
 }
 
 .registerbtn {
@@ -736,7 +751,9 @@ margin-top: -20px;
 }
 .size-2{
   width: 90%;
-  position: relative; 
+  position: relative;
+ 
+  
 }
 .mysql{
   background-color: #eaa517;
@@ -749,7 +766,13 @@ margin-top: -20px;
  animation-duration: 10s;
  animation-iteration-count: infinite;
 }
-
+@keyframes colorchange{
+ 
+  25%{
+    background-color: #1de844;
+  }
+  
+}
 .mysql h1{
   font-size: 40px;
   text-align: center;
@@ -759,7 +782,20 @@ margin-top: -20px;
   animation-duration: 5s;
  animation-iteration-count: infinite;
 }
+@keyframes spacing{
+  0%{
+    color: white;
+  }
+  25%{
+    color: blue;
+    letter-spacing: 10px;
 
+  }
+  75%{
+    color: pink
+  }
+
+}
 
 .mysql p{
   font-size: 25px;
@@ -773,17 +809,32 @@ margin-top: -20px;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 5%;
+
   }
   .facebook:hover{
     background-color: lightgray;
     opacity: 0.7;
   }
+  .insta:hover{
+    background-color: lightgray;
+    opacity: 0.3;
+  }
+  .Twitter:hover{
+    background-color: lightgray;
+    opacity: 0.3;
+  }
   .facebook img{
     height: 70px;
     width: 70px;
+    
+ 
   }
  
+
 @media  (max-width: 1000px){
+  
+ 
+  
   .container {
     margin-left: 10px;
     height: 1130px;
@@ -795,19 +846,26 @@ margin-top: -20px;
   }
   .one {
     font-size: 23px;
-    margin-left: 3%;  
+    margin-left: 3%;
+
+
+  
   }
   .two {
     font-size: 23px;
-    margin-left: 2%;  
+    margin-left: 2%;
+    
+    
   }
   .three {
     font-size: 23px;
-    margin-left: 1%;  
+    margin-left: 1%;
+    
   }
   .four {
     font-size: 23px;
-    margin-left: 0.7%;  
+    margin-left: 0.7%;
+    
   }
   .five{
     font-size: 25px;
@@ -818,22 +876,117 @@ margin-top: -20px;
     margin-top: 300%;
     width: 130%;
   }
+  
+
+
+
+  
+   
+  
   .wwpp {
     font-size: 25px;
   }
   .size{
     width: 77%;
-    text-align: left; 
+    text-align: left;
+
+   
   }
   .registerbtn{
     font-size: 15px;
+
   }
   .uppicture{
-  width: 50% ;
+  
+  width: 50%; 
+
 }
 .downpicture{
   width: 50%;
   height: auto;
+
+
 }
+ 
+
 }
+.first-site{
+  background-color: white;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+ 
+}
+.assigsment-1{
+  height: 70px;
+  width: 100%;
+  background-color: #1c537f;
+  text-align: center;
+
+}
+.assigsment-1 h1{
+  position: relative;
+ top: 20px;
+}
+.description{
+  background-color: lightgray;
+  width: 86%;
+
+  height: auto;
+  margin: 7%;
+  border: 5px solid black;
+  
+ 
+
+}
+.description h2{
+   background-color: gray;
+  margin-left: 2%;
+ 
+
+
+ 
+}
+.description p{ 
+  margin-left: 5%;
+
+ }
+.screenshot{
+  height: 700px;
+  width: 100%;
+ 
+
+   display: grid;
+
+grid-template-columns:  auto auto;
+  justify-content: space-around;
+
+ }
+ .screenshot-1{
+
+
+ height: 300px;
+ width: 500px;
+  background-color: blue;
+
+  
+
+ }
+ .screenshot-1 img{
+  height: 300px;
+  width: 500px; 
+ }
+ @media (max-width: 1000px){
+  .screenshot-1{
+    height: 250px;
+    width: 350px;
+  }
+  .screenshot-1 img{
+    height: 250px;
+    width: 350px;
+  }
+
+ }
+
+
 
