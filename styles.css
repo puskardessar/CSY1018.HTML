@@ -3,20 +3,13 @@ body {
   padding: 0;
   font-family: Helvetica, sans-serif;
   background-image: url(pexels-photo-268533.JPEG);
-  
   background-attachment: fixed;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: example;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
-  
-
-
-
- 
-  
+  animation-iteration-count: infinite; 
 }
 @keyframes example{
   25%{
@@ -39,8 +32,6 @@ body {
 a {
   color: white;
 }
-
-
 .burgerLabel {
   margin-right: 0px;
 }
@@ -51,14 +42,11 @@ a {
   margin: 6px 2px;
   display: flex;
   flex-direction: column;
-
-
 }
 
 nav {
   background-color: black;
   box-shadow: 4px 1px 4px 4px red;
-
   width: 100%;
   z-index: 3;
   color: gray;
@@ -86,15 +74,12 @@ nav ul li {
 
 nav ul li a {
   display: block;
-
   text-decoration: none;
   height: 20px;
   width: 120px;
-
   font-size: 20px;
   color: #000000;
   padding: 25px 0px;
-
   transition: 0.6s ease;
 }
 
@@ -111,7 +96,6 @@ nav .logo {
 @keyframes makani{
   20%{
     color: red;
-
   }
   40%{
     color: blue;
@@ -120,12 +104,10 @@ nav .logo {
   {
     color: pink;
     color: pink
-
   }
   80%{
     color: gray;
   }
-
 }
 
 ul li a:hover {
@@ -157,48 +139,33 @@ ul li a:hover {
 }
 @keyframes puskar-1{
   0%{ background-color: red;
-    
     transform: rotateX(90deg);
-
    }
    25%{ 
     background-color: blue;
-
-
-
    }
    25%{ 
     background-color: blue;
-    
-
-
     }
     100%{
       background-color: pink;
     }
 }
-
 @media (max-width: 1200px) {
   .burgerLabel {
-
     display: block;
     float: right;
   }
 }
-
-
 @media (max-width: 1201px) {
   ul li {
     flex-direction: column;
-
   }
   .menu {
     text-align: center;
     width: 100%;
     height: 2200px;
     background-attachment: fixed;
-   
-    
     display:  none;
     float: right;
    overflow: hidden;
@@ -217,12 +184,9 @@ ul li a:hover {
     color: white;
     width: 100%;
   }
-
   .menu ul li a {
     width: 100%;
   }
-
-
   .menu a {
     width: 100%;
     border-bottom: 1px solid black;
@@ -234,7 +198,6 @@ ul li a:hover {
   }
   #hide:checked + .menu {
     display: block;
-
   }
   #title  {
   padding: 0px;
@@ -250,56 +213,38 @@ ul li a:hover {
 
 
 #first-div {
-  
-  
    background-color: #0d2303;
    margin-top: 5%;
-
    overflow: hidden;
-
-
-
 }
 .second-div {
   display: grid;
-
   grid-template-columns: 30% 30% 30%;
-
-
   background-color: #0d2303;
   width: 100%;
-  
   position: relative;
   top: 5%;
   height: auto;
- 
   text-align: center;
-  
-
 }
 .first-year-photo {
   grid-column-start: 1;
   grid-column-end: 4;
   height: 400px;
   background-color: lightgray;
-  
   width: 550px;
   position: relative;
   left: 34%;
   margin: 2%;
   font-size: 20px;
- 
 }
 .second-year-photo {
   background-color: lightgray;
   height: 300px;
   width: 300px;
   margin: 6%;
-  
   margin-left: 25%;
-  font-size: 20px;
- 
-  
+  font-size: 20px; 
 }
 .third-year-photo {
   background-color: lightgray;
@@ -307,20 +252,14 @@ ul li a:hover {
   width: 300px;
   margin: 6%;
   font-size: 20px;
-  
-  margin-left: 22%;
- 
-  
+  margin-left: 22%; 
 }.first-selfi-photo{
   background-color: lightgray;
   height: 300px;
   width: 300px;
   margin: 6%;
   font-size: 20px;
-  
-  margin-left: 30%;
- 
-  
+  margin-left: 30%; 
 }
 
 
@@ -330,7 +269,6 @@ ul li a:hover {
   width: 600px;
   margin-left: 10%;
   font-size: 20px;
- 
 }
 .group-photo{
   background-color: gray;
@@ -338,20 +276,16 @@ ul li a:hover {
   width: 500px;
   margin-left: 80%;
   font-size: 20px;
-
 }
 .rojan{
   height: 300px;
   background-image: url(222.PNG);
-  background-size: contain;
-  
-  
+  background-size: contain; 
 }
 .rayan{
   height: 90px;
   width: 550px;
   background-color: green;
-
 }
 .pakas{
   height: 210px;
@@ -406,15 +340,10 @@ ul li a:hover {
 .collection{
   width: 90%;
   height: 600px;
-
-
   background-color: ;
-
   margin: 5%;
    display: grid;
   grid-template-columns: 33% 33% 33%;
-
-
 }
 .portfolio-1{
   text-align: center;
@@ -424,7 +353,6 @@ ul li a:hover {
   color: red;
   animation-name: colorexchange;
   animation-duration: 7s;
-
 }
 @keyframes colorexchange{
   0%{
@@ -441,8 +369,6 @@ ul li a:hover {
   }
 
 }
-
-  
 
 @keyframes portfolio-s{
   0%{
@@ -463,20 +389,12 @@ ul li a:hover {
 background-repeat: no-repeat;
   transition-duration: 10s;
   background-size: cover;
-  
-
  margin: 5%;
 }
 .myphto{
   color: #e7efab;
   width: 100%;
-
   width: 100%;
-
-
-
-
-
 }
 .myphto h1{
   margin-top: 7%;
@@ -485,18 +403,12 @@ background-repeat: no-repeat;
 @keyframes nobita{
   0%{
     background-color: #0d2303;
-
   }
   50%{
-     
     background-color: blue;
     filter: blur(0);
-
   }
- 
 }
-
-
 @media (max-width: 1200px){
  .second-year-photo{
   margin: 5%;
@@ -515,8 +427,7 @@ background-repeat: no-repeat;
     width: 450px;
     margin-left: -2%;
   }
-  .rayan{
-  
+  .rayan{ 
   width: 450px;
   background-color: green;
 }
@@ -526,37 +437,27 @@ background-repeat: no-repeat;
 .div-6{
    width: 400px; 
    width: 400px;
- 
-  
-
 }
 .div-9{
   width: 350px;
 }
 }
-
-  
-
-
-
-
-*/
+/*cv*/
 .for-cv{
  display: grid;
-  grid-template-columns: 28% 72%;
+  grid-template-columns: 32% 68%;
   /*display: flex;
   flex-direction: row;*/
   margin-top: 5px;
  
-  height: 1100px;
+  height: 1200px;
   width: 90%;
   margin: 5%;
-  
-
+  box-shadow: -29px -34px 21px black;
 }
 .part-1{
   background-color: #fafafa;
-  height: 1100px;
+  height: 1200px;
   width: 100%;
  position: relative;
 }
@@ -564,7 +465,6 @@ background-repeat: no-repeat;
   background-color: #9090d2;
   height: auto;
   width: 100%;
-
 }
 .own-picture{
   height: 150px;
@@ -574,9 +474,7 @@ background-repeat: no-repeat;
  /* border: 3px solid black;*/
   background-size: contain;
   background-repeat: no-repeat;
-
 }
-
 .for-name{
   margin-top: -20px;
   margin-left: 30px 
@@ -586,19 +484,20 @@ margin-top: -20px;
   margin-left: 30px 
 }
 .my-status{
-
   height: auto;
   text-align: center;
-
 }
 .profile-status p{
   margin-top: 20px;
+  font-size: 20px;
 }
-
  .maintain-margin{
   margin-top: 20px;
- 
   text-align: start;
+  font-size: 20px;
+ }
+ .maintain-margin{
+  font-size: 20px;
  }
  .my-details{
   margin-left: 3%;
@@ -624,10 +523,20 @@ margin-top: -20px;
  }
  .education-1 h1{
   color: black;
+  font-size: 30px;
  
+ }
+ .mother-1{
+  font-size: 21px;
+ }
+ .skills{
+  font-size: 21px;
  }
  .down{
   margin-top: 20px;
+ }
+ .experience-2{
+  font-size: 21px;
  }
  .education-1{
  /*margin-left: 3%;*/
@@ -648,27 +557,19 @@ margin-top: -20px;
  /* background-color: red;*/
 }
 .dream{
-
-  
   height: auto;
-  margin-left: 5%;
-  
+  margin-left: 5%; 
 }
 .dream h1{
    text-align: center;
-   
    margin-top: -0%;
    height: 60px;
-
-
-
+   margin-left: -20%;
 }
 .dream p{
   margin-left: 10%;
   font-size: 27px;
   list-style: none;
- 
-
 }
 .mynepal{
   width: 70%;
@@ -718,76 +619,74 @@ margin-top: -20px;
   background-size: contain;
   background-repeat: no-repeat;
  }
-/*@media and screen(max-width: 1000px){
-  .education-1{
-    font-size: 15px;
-  }
+ .mommy h4{
+  font-size: 25px;
+  text-decoration: underline; 
+ }
+ .personal-status h1{
+  text-align: center;
+ }
+ .personal-status p{
+  text-align: start;
+  font-size: 20px;
+ }
+ .personal-status b{
+  font-size: 20px;
+ }
+ .mommy p{
+  font-size: 20px;
+ }
+ .hoobies-1 p{
+  font-size: 20px;
+ }
+ @media  (max-width: 1000px){
   .mother-1{
-    font-size: 20px;
-  }
-
-}*/
-/*@media (max-width: 360px){
-.maintain-margin{
-  font-size: 17px;
+  font-size: 19px;
+ }
+ .skills{
+  font-size: 19px;
+ }}
+ .down{
+  margin-top: 20px;
+ }
+ .experience-2{
+  font-size: 19px;
+ }
+ .for-cv{
+  height: 1450px;
+ }
+ .part-1{
+  height: 1450px;
+ }
 }
-.mother-1 p{
-  font-size: 13px;
-}
-.skills p{
-  font-size: 13px;
-}
-.experience-2 p{
-  font-size: 13px;
-}
 
-}
-*/
-
-
-
-
-
-
-
-
-
-/*contcct*/
-
+/*contact*/
 #workout {
   width: 100%;
- 
-
   display: grid;
   grid-template-columns: 70% 30%;
 }
 .fumm {
   background-color: black;
-  margin-top: 75px;
+  margin-top: 90px;
   height: 900px;
   color: white;
-  opacity: 0.5;
-
-
- 
+  font-size: 18px;
   background-attachment: fixed;
 }
-
 .container {
   background-color: gray;
   width: 100%;
-  height: 1200px;
+  height: 1000px;
   border-radius: 7px;
   color: white;
- 
+  margin-top: 90px;
 }
-
 .container h1 {
   font-size: 40px;
   color: white;
   margin-top: 100px;
 }
-
 .container h1 p {
   font-size: 25px;
 }
@@ -797,8 +696,6 @@ margin-top: -20px;
  
  overflow: hidden;
 }
-
-
 .one {
   font-size: 20px;
   position: relative;
@@ -822,7 +719,7 @@ margin-top: -20px;
   position: relative;
 }
 .five {
-  font-size: 50px;
+  font-size: 30px;
   width: 60%;
 }
 
@@ -833,65 +730,110 @@ margin-top: -20px;
   background-color: green;
 }
 .size{
-  width: 70%;
+  width: 60%;
   position: relative;
-  left: 100px;
+  left: 20px;
 }
 .size-2{
   width: 90%;
-  position: relative;
- 
-  
+  position: relative; 
+}
+.mysql{
+  background-color: #eaa517;
+  height: 650px;
+  margin-left: -33%;
+  margin-top: 70%;
+  width: 120%;
+ box-shadow: -29px -34px 21px black;
+ animation-name: colorchange;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+
+.mysql h1{
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 20px 10px 15px white;
+  text-decoration: underline white;
+  animation-name: spacing;
+  animation-duration: 5s;
+ animation-iteration-count: infinite;
 }
 
 
-.wwpp a:hover {
-  color: green;
+.mysql p{
+  font-size: 25px;
   text-decoration: underline;
-  
+  text-align: center;
+  color: white;
+  text-shadow: 10px 5px 7px black;
 }
-
-
-
-
-
-@media screen and (max-width: 1000px){
-  
-  .fumm{
-    font-size: 15px;
-
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
   }
-  #workout{
-    grid-template-columns: 65% 35%;
-
-   height: 1000px;
+  .facebook:hover{
+    background-color: lightgray;
+    opacity: 0.7;
   }
+  .facebook img{
+    height: 70px;
+    width: 70px;
+  }
+ 
+@media  (max-width: 1000px){
   .container {
     margin-left: 10px;
-    height: 1000px;
+    height: 1130px;
+    width: 120%
+
+  }
+  .container p{
+    font-size: 30px;
   }
   .one {
-    font-size: 10px;
-
-  
+    font-size: 23px;
+    margin-left: 3%;  
   }
   .two {
-    font-size: 20px;
-    
+    font-size: 23px;
+    margin-left: 2%;  
   }
   .three {
-    font-size: 20px;
-    
+    font-size: 23px;
+    margin-left: 1%;  
   }
   .four {
-    font-size: 20px;
-    
+    font-size: 23px;
+    margin-left: 0.7%;  
+  }
+  .five{
+    font-size: 25px;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .mysql{
+    margin-top: 300%;
+    width: 130%;
   }
   .wwpp {
-    font-size: 20px;
+    font-size: 25px;
   }
-  
-
+  .size{
+    width: 77%;
+    text-align: left; 
+  }
+  .registerbtn{
+    font-size: 15px;
+  }
+  .uppicture{
+  width: 50% ;
 }
-
+.downpicture{
+  width: 50%;
+  height: auto;
+}
+}
 
