@@ -910,6 +910,9 @@ margin-top: -20px;
  
 
 }
+
+
+/*sitereport*/
 .first-site{
   background-color: white;
   width: 100%;
@@ -972,21 +975,195 @@ grid-template-columns:  auto auto;
   
 
  }
- .screenshot-1 img{
-  height: 300px;
-  width: 500px; 
+  .screenshot-1 img{
+
+
+ height: 300px;
+ width: 500px}
+ .chri{
+  margin: 5%;
+  height: auto;
+ 
+  width: 90%;
+  background-color: lightgray;
+  border: 10px solid blue;
  }
+ .chri h4{
+  
+  font-size: 23px;
+  text-align: center;
+  background-color: darkgray;
+  height: 50px;
+  margin-top: -0%;
+ }
+ .chri h2{
+  margin-left: 5%
+ }
+ .chri p{
+  margin-left: 7%;
+  margin-right: 5%;
+
+ }
+ .chri h5{
+  font-size: 20px;
+  margin-left: 5%;
+  text-decoration: underline;
+ }
+ .underline{
+  text-decoration: underline;
+  font-size: 25px;
+  margin-left: 7%;
+ }
+ .underline p{
+  margin: 9% 5% 0 0;
+ }
+ .github-1{
+  background-color: red;
+  margin: 5% 15%;
+  height: 500px;
+  width: 70%;
+ }
+ .validation{
+  width: 90%;
+  height: auto;
+  border: 7px solid black;
+  margin: 5%;
+
+ }
+ .validation h1{
+  text-align: center;
+ }
+ .validation-photo{
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  justify-content: space-around;
+  
+ }
+ .validation-1{
+  height: 400px;
+  width: 33%;
+ }
+ .validation-1 img{
+  height: 400px;
+  width: 100%;
+ }
+
+
+ .validation-portfolio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+ .validation-portfolio-1{
+  height: 400px;
+  width: 33%;
+ 
+ }
+ .validation-portfolio-1 img{
+  height: 400px;
+  width: 100%;
+ }
+ .validation-contact{
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-around;
+ }
+ .validation-contact-1{
+  height: 400px;
+  width: 33%;
+  background-color: black;
+ }
+ .validation-cv{
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-around;
+ }
+ .validation-cv-1{
+  height: 400px;
+  width: 33%;
+  background-color: black;
+
+ }
+ .validation-cv-1 img{
+  height: 400px;
+  width: 100%;
+
+ }
+ .validation-sitereport{
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-around;
+ }
+ .validation-sitereport-1{
+  height: 400px;
+  width: 33%;
+  background-color: black;
+ }
+ .reference{
+  height: auto;
+  width: 90%;
+  margin: 5%;
+  border: 8px solid green;
+  background-color: lightgray;
+  
+  
+
+ }
+ .reference-table{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+
+ 
+
+
+ }
+ .reference h1{
+  text-align: center;
+  background-color: gray;
+  margin-top: -0%;
+
+ }
+
+ .reference-1{
+  background-color: #4d4dd0;
+  height: auto;
+  margin: 5%;
+
+ }
+ .heading h1{
+  background-color: #d66e6e;
+  height: 50px;
+ }
+ .showing-issues{
+  height: auto;
+  width: 90%;
+  margin: 5%;
+  border: 7px solid black;
+ }
+
+
+
+
  @media (max-width: 1000px){
   .screenshot-1{
     height: 250px;
     width: 350px;
   }
-  .screenshot-1 img{
+   .screenshot-1 img{
     height: 250px;
     width: 350px;
   }
-
+  
+  .description{
+    font-size: 20px;
+  }
+  .chri h4{
+    font-size: 35px;
+  }
  }
-
-
-
