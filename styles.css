@@ -424,7 +424,7 @@ background-repeat: no-repeat;
 }
 .part-1{
   background-color: #fafafa;
-  height: 1300px;
+  height: auto;
   width: 100%;
  position: relative;
 }
@@ -621,10 +621,10 @@ margin-top: -20px;
   font-size: 19.5px;
  }
  .for-cv{
-  height: 1450px;
+  height: auto;
  }
  .part-1{
-  height: 1450px;
+  height: auto;
  }
  .dream h1{
  	margin-left: -20%;
